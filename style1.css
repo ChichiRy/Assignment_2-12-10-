@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    margin: auto;
+
+}
+
+input{
+    background-color: dimgrey;
+
+}
+
+.form-control{
+    background-color: dimgrey;
+    border-collapse: collapse;
+}
+
+.form-control::placeholder{
+    color: whitesmoke;
+}
+
+::placeholder{
+    color: white;
+}
+
+::-ms-input-placeholder{
+    color: ghostwhite;
+}
