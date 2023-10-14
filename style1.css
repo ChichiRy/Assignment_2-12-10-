@@ -10,6 +10,11 @@ input{
 
 }
 
+iframe{
+    border-radius: 25px;
+    border: 0;
+}
+
 .form-control{
     background-color: dimgrey;
     border-collapse: collapse;
@@ -25,4 +30,61 @@ input{
 
 ::-ms-input-placeholder{
     color: ghostwhite;
+}
+
+.send_message {
+    border: 1px solid #222227;
+    border-radius: 12px;
+    padding: 20px;
+    height: 380px;
+}
+
+.form-control{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    background-color: #222227;
+    background-clip: padding-box;
+    border: 1px solid #222227;
+    border-radius: 12px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 50px;
+    caret-color: white;
+}
+
+.form-control:focus{
+    background-color: #222227;
+    cursor: text;
+}
+
+textarea.form-control{
+    height: 120px;
+}
+div{
+    display: block;
+}
+.main{
+    padding: 90px 0;
+    background: #0f0f0f;
+    border-bottom: #222227 1px solid;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }

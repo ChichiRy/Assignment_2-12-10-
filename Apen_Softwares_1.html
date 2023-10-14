@@ -9,26 +9,54 @@
 </head>
 
 <body>
-<div class="row">
-    <div class="col-md-6">
-        <h2>Where we are</h2>
-        <div class="container-fluid">
-            <p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8308902142503!2d36.81818691421251!3d-1.2747446990702223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f171dfb52ef3f%3A0x973a39272320f4d9!2sApen%20Softwares!5e0!3m2!1sen!2ske!4v1666874355753!5m2!1sen!2ske"
-                   width="570" height="380" allowfullscreen="" loading="lazy"></iframe>
-            </p>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <h2>Send us a message</h2>
-        <div class="container-fluid">
-            <form action="">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email" required><br>
-                <input type="number" placeholder="Phone">
-                <input type="text" placeholder="Subject" required><br><br>
-                <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3" required></textarea><br><br>
-                <input type="Submit" value="Submit">
-            </form>
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Where we are</h2>
+                <div>
+                    <p><iframe allowfullscreen="" height="380" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8308902142503!2d36.81818691421251!3d-1.2747446990702223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f171dfb52ef3f%3A0x973a39272320f4d9!2sApen%20Softwares!5e0!3m2!1sen!2ske!4v1666874355753!5m2!1sen!2ske" width="570"></iframe>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Send us a message</h2>
+                <div class="send_message">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form_group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form_group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form_group">
+                                    <input type="number" class="form-control" id="number" placeholder="Phone">
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form_group">
+                                    <input type="text" class="form-control" placeholder="Subject" id="subject" required>
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <textarea class="form-control" placeholder="Message" id="Message" rows="3"
+                                  required></textarea>
+                        <input type="Submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>

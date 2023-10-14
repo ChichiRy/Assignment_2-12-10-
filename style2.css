@@ -28,7 +28,7 @@ ul li{
 
 ul li::before {
     content: "\f192";
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Free', Serif, serif;
     position: absolute;
     left: 0;
     top: 1px;
